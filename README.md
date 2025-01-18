@@ -27,6 +27,9 @@ This project investigates customer spending patterns and sales trends for Quanti
 2. **Classification Modeling**:
    - Perform exploratory data analysis (EDA) to identify features influencing high spending.
    - Train and evaluate multiple classification models using metrics such as accuracy, precision, recall, and F1 score.
+
+![Image](https://github.com/user-attachments/assets/5ba75a98-abca-4e05-a506-eb83959fdc08)
+
    - Utilized confusion matrices to visualize model results
   
 ![Image](https://github.com/user-attachments/assets/852ee9e1-e806-4c14-921e-d43ce3bcdefb)
