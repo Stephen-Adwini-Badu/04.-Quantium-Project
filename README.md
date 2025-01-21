@@ -1,61 +1,55 @@
 # Quantium Project
 
 ## Overview
-This project investigates customer spending patterns and sales trends for Quantium. It focuses on understanding price differences across product segments and identifying high-spending customers through advanced analytical methods.
+This project investigates customer spending patterns and sales trends for Quantium. This notebook is designed to provide a comprehensive analysis of customer purchasing trends and behaviors, specifically focusing on the chips category in a supermarket's portfolio. The objective is to derive actionable insights to support strategic recommendations , in preparation for the upcoming category review.
 
 ## Objectives
-### Objective 1: T-Test Analysis
-- **Hypotheses**:
-  - **Null Hypothesis (H₀):** There is no significant difference in the unit prices of rides between the Mainstream and (Premium + Budget) groups.
-  - **Alternative Hypothesis (H₁):** There is a significant difference in the unit prices of rides between the Mainstream and (Premium + Budget) groups.
-- **Insight Goal**: Understand pricing variations across customer groups to inform marketing and pricing strategies.
 
-### Objective 2: Classification Modeling
-- **Goal**: Build multiple classification models to predict high-spending customers.
-- **Use Case**: Help Quantium target high-value customers more effectively through personalized campaigns.
+1. **Analyze Current Purchasing Trends**: Understand how customers currently engage with the chips category in terms of frequency, volume, and spend.
+2. **Identify Customer Segments**: Classify customers into meaningful segments based on their purchasing behaviors to uncover unique preferences and trends.
+3. **Support Strategic Planning**: Provide data-backed insights that inform the strategic direction for the chips category.
 
 ## Methodology
-### Data Preparation
-- Import necessary libraries and packages.
-- Preprocess and clean the dataset to ensure consistency and usability for analysis.
 
-### Analysis and Modeling
-1. **T-Test Analysis**:
-   - Compare unit prices across specified customer groups.
-   - Evaluate the statistical significance of observed price differences.
+### 1. **Data Preparation**
+   - Load and clean the dataset to ensure accuracy and consistency.
+   - Address missing values, outliers, or data anomalies.
 
-2. **Classification Modeling**:
-   - Perform exploratory data analysis (EDA) to identify features influencing high spending.
-   - Train and evaluate multiple classification models using metrics such as accuracy, precision, recall, and F1 score.
+### 2. **Exploratory Data Analysis (EDA)**
+   - Explore the data to understand general purchasing patterns.
+   - Investigate key metrics such as total sales, average transaction size, and purchase frequency.
+   - Visualize data trends to identify standout behaviors or anomalies.
+   - Analyze pre-Christmas sales spikes and their contributing factors.
 
-![Image](https://github.com/user-attachments/assets/5ba75a98-abca-4e05-a506-eb83959fdc08)
+### 3. **Customer Segmentation**
+   - Profile segments to describe their characteristics, purchasing preferences, and overall contribution to the category.
 
-   - Utilized confusion matrices to visualize model results
-  
-![Image](https://github.com/user-attachments/assets/852ee9e1-e806-4c14-921e-d43ce3bcdefb)
+### 4. **Chip Purchasing Behavior Analysis**
+   - Examine metrics specific to chips, such as:
+     - Sales trends over time.
+     - Popular products or brands.
+     - Average spend per transaction and per customer.
+   - Identify patterns in chip purchasing across different customer segments.
 
-### Visualization
-- Create insightful data visualizations to highlight sales trends and customer spending patterns.
-- Analyze pre-Christmas sales spikes and their contributing factors.
+### 5. **Insights**
+   - *110, 134, 150, 165, 170 and 175* products sizes appear to be popular sizes as the **6** alone as they account for **~73%** of all purchases and the other **15** available sizes account for only **~27%**
 
-![Image](https://github.com/user-attachments/assets/a525ee87-1e9f-4e15-b761-43ff4f83d0cc)
+   ![1 2](https://github.com/user-attachments/assets/a307c75d-e55e-4970-a808-560ab3fec724)
 
-## Observations
-- Sales are predominantly driven by the following customer segments:
-  - Budget: Older families and Older singles/couples
-  - Mainstream: Young singles/couples and retirees.
+     
+   - Sales trends show a significant increase leading up to Christmas.
 
-![Image](https://github.com/user-attachments/assets/a3f8f7ca-b2f6-49f3-8f69-568a99fbacdf)
+   ![Image](https://github.com/user-attachments/assets/435e99a9-c3a1-4500-8369-c18d7e6b2048)
+     
+   - Sales are coming mainly from **(older families)** in general, **(mainstream young singles/couples)** and **(mainstream retirees)**  with these *6 (out of 21)* in total accountingfor **~40%** of total sales.
+     
+     ![1 3](https://github.com/user-attachments/assets/8cc881e8-cdd4-44cb-9919-4456c5a1304e)
 
-- Sales trends show a significant increase leading up to Christmas.
+   - Customers are coming mainly from **(older families)** in general, **(mainstream young singles/couples)** and **(mainstream retirees)** with these *6 (out of 21)* in total accounting for **~40%** of customers, *same as total sales*   with **(mainstream young singles/couples)** and **(mainstream retirees)** accounting for **11% and 9%** respectively.
+   - **(New families)**, **(older families)** and **(young families)** in general buy more chips per customer and accounting for **56%** of product quantity with **(new families)** alone making up **21%**.
+     
+     ![1 4](https://github.com/user-attachments/assets/0423872c-7388-44a8-8ae3-374d6a0c1f4a)
 
-![Image](https://github.com/user-attachments/assets/9ddf6e1a-5f5a-4b8b-85e1-0b59f3c18fd3)
-
-## Results
-- **T-Test Insights**: Determine the significance of pricing differences among customer groups.
-- **Classification Insights**: Identify and predict high-spending customers with high accuracy.
-
-## Feature Importance
-- Generated visualizations to showcase the most impactful variables in each model.
-
-![Image](https://github.com/user-attachments/assets/699d61aa-c23a-4514-830e-1fda22340750)
+   - In total **(midage singles and couples)** are more willing to pay more per packet of chips compared to other lifestage groups.  
+Accounting for **16%** of sales per unit price per lifestage
+   - Also Premium customers tend to pay more for and in total account for **43%** of sales per unit price per customer type. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption.
