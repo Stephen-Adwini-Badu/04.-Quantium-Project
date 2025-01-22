@@ -50,6 +50,5 @@ This project investigates customer spending patterns and sales trends for Quanti
      
      ![1 4](https://github.com/user-attachments/assets/0423872c-7388-44a8-8ae3-374d6a0c1f4a)
 
-   - In total **(midage singles and couples)** are more willing to pay more per packet of chips compared to other lifestage groups.  
-Accounting for **16%** of sales per unit price per lifestage
+   - In total **(midage singles and couples)** are more willing to pay more per packet of chips compared to other lifestage groups. Accounting for **16%** of sales per unit price per lifestage.
    - Also Premium customers tend to pay more for and in total account for **43%** of sales per unit price per customer type. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption.
